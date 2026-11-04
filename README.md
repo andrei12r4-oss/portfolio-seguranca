@@ -20,23 +20,23 @@ contra golpes (phishing, e-mail falso).
 *(adicione aqui o link de cada pasta conforme for concluindo — comece com os
 mais fortes, não precisa listar todos)*
 
-- Segurança em chatbot com IA (Prompt Injection, Excessive Agency): `05-projetos-aplicados/seguranca-llm-shopai/`
-- Projeto 2:
-- Projeto 3:
+- Segurança em chatbot com IA (Prompt Injection, Excessive Agency): [05-projetos-aplicados/seguranca-llm-shopai/](05-projetos-aplicados/seguranca-llm-shopai/)
 
 ## Estrutura deste repositório
-- `01-bootcamp/` — os 3 projetos finais do bootcamp (brute force, malware com
-  proteções, GuardAI)
-- `02-juice-shop/` — desafios resolvidos no OWASP Juice Shop
-- `03-tryhackme/` — salas concluídas no TryHackMe
-- `04-hackthebox/` — máquinas resolvidas no Hack The Box
-- `05-projetos-aplicados/` — projetos feitos em ambiente real/autorizado:
-  SPF/DKIM/DMARC, simulação de phishing, pentest de site
+- 🟡 `01-bootcamp/` — os 3 projetos finais do bootcamp (brute force, malware com proteções, GuardAI) (em andamento, previsto Semana 5 a 8)
+- ⚪ `02-juice-shop/` — desafios resolvidos no OWASP Juice Shop (planejado)
+- ⚪ `03-tryhackme/` — salas concluídas no TryHackMe (planejado)
+- ⚪ `04-hackthebox/` — máquinas resolvidas no Hack The Box (planejado)
+- ✅ `05-projetos-aplicados/` — projetos feitos em ambiente real/autorizado: SPF/DKIM/DMARC, simulação de phishing, pentest de site (destaque, já concluído)
 
 ## Contato
-*(seu e-mail / LinkedIn / WhatsApp profissional)*
+- E-mail: email.andrei12r4@gmail.com
+- LinkedIn: [linkedin.com/in/andrei-silva-5361a442a](https://www.linkedin.com/in/andrei-silva-5361a442a/)
+- GitHub: [github.com/andrei12r4-oss](https://github.com/andrei12r4-oss)
 
 ---
 ⚠️ Todo teste documentado aqui foi feito em ambiente próprio, laboratório
 autorizado (Juice Shop, TryHackMe, Hack The Box) ou com autorização explícita
 do responsável pelo sistema testado.
+## Plano de Estudos
+Acompanhe meu cronograma de estudos do bootcamp em [PLANO-ESTUDOS.md](PLANO-ESTUDOS.md).
