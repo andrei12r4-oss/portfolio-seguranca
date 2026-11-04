@@ -1,0 +1,145 @@
+=====================================================================
+DIARIO DE ESTUDOS - BOOTCAMP CIBERSEGURANCA (ANDREI)
+=====================================================================
+Como usar: copie o modelo abaixo para cada dia novo de aula. Preencha
+enquanto assiste ou logo depois, com suas palavras. Manda pra mim que
+eu ajudo a corrigir e aprofundar o que precisar.
+
+
+---------------------------------------------------------------------
+MODELO - DIARIO DE AULA (copie este bloco a cada dia)
+---------------------------------------------------------------------
+DATA:
+AULA:
+
+O QUE APRENDI (3 a 5 linhas):
+
+
+TERMOS NOVOS:
+ - termo = significado com minhas palavras
+
+
+TESTE QUE FIZ (se aplicavel):
+ - Ataque tentado:
+ - Resultado (passou/falhou):
+ - Como corrigi:
+
+
+ONDE ISSO APARECE NOS MEUS PROJETOS:
+
+
+DUVIDAS:
+
+
+---------------------------------------------------------------------
+MODELO - DIARIO DE LABORATORIO (Juice Shop, TryHackMe, Hack The Box)
+---------------------------------------------------------------------
+LAB:
+PLATAFORMA:
+DESAFIO:
+O QUE TENTEI:
+O QUE FUNCIONOU:
+COMO SE DEFENDE (em 1 frase):
+ONDE EU VERIA ISSO NOS MEUS PROJETOS:
+
+
+=====================================================================
+JA PREENCHIDO - 21/10 - Fundamentos da IA Moderna
+=====================================================================
+DATA: 21/10
+AULA: Fundamentos da IA Moderna (Machine Learning, LLMs, IA Generativa e Agentes)
+
+O QUE APRENDI:
+- IA de reconhecimento de imagem (ex: identificar uma maca) nao guarda
+  a foto em si, guarda PARAMETROS/FEATURES aprendidos: formato,
+  cor, textura, posicao de detalhes (ex: quase-esferico, tons de
+  vermelho, fenda superior).
+- A posicao do objeto na imagem nao importa - a IA reconhece o padrao
+  onde quer que ele esteja (invariancia de posicao).
+- O treinamento usa reforco positivo: a IA tenta, e e corrigida ate
+  acertar o padrao certo.
+- TOKEN e um conceito diferente, usado por LLMs (modelos de texto):
+  e a unidade de texto (pedaco de palavra ou frase) que o modelo
+  processa ao ler e escrever. Nao e a mesma coisa que "parametro de
+  imagem" - sao duas familias de IA diferentes (visao computacional
+  x modelos de linguagem).
+- LLM (Large Language Model) = modelo grande, tipo o Gemini.
+- SLM (Small Language Model) = modelo menor, mais leve, roda com
+  menos recursos (as vezes ate no celular).
+- Existem modelos open source ja treinados e prontos para usar (ex:
+  Llama, da Meta).
+
+TERMOS NOVOS:
+ - Feature/parametro = caracteristica que a IA de imagem aprende a
+   reconhecer (forma, cor, textura)
+ - Token = pedaco de texto que um LLM processa; e tambem a unidade
+   que se paga ao usar uma API de IA
+ - SLM = Small Language Model, modelo de linguagem pequeno e leve
+ - Reforco positivo = corrigir a IA durante o treino ate ela acertar
+   o padrao certo
+
+ONDE ISSO APARECE NOS MEUS PROJETOS:
+- Todo gasto de token no ShopAI vem desse conceito de token como
+  unidade de texto processada pelo LLM.
+- O conceito de "reforco positivo para o modelo aprender errado de
+  proposito" se conecta com o LLM04 (Data and Model Poisoning) do
+  OWASP Top 10 para LLMs, que ja estudei antes.
+
+DUVIDAS:
+(preencher se tiver)
+
+=====================================================================
+=====================================================================
+29/10 - Agentes de IA (Google Antigravity) e Engenharia de Prompts
+=====================================================================
+DATA: 29/10
+AULA: Potencializando Seus Estudos e Carreira com IA (módulo Agentes) + Engenharia de Prompts (início)
+
+O QUE APRENDI:
+- Existem 3 níveis de uso de IA: Chatbot (responde quando eu pergunto),
+  Copiloto (sugere enquanto eu trabalho, enxergando o que estou
+  fazendo) e Agente (eu delego a tarefa inteira; ele decide os passos
+  e executa sozinho, eu só acompanho o resultado final).
+- Um agente bem construído pede permissão antes de agir sobre o
+  sistema (ex: antes de listar arquivos de uma pasta), em vez de agir
+  sem avisar.
+- Um bom prompt para um agente precisa de três partes: contexto (meu
+  objetivo real), dados concretos (o cronograma que eu já tinha
+  escrito) e uma instrução clara do que criar. Prompt vago gera
+  resultado solto e genérico.
+- Existe o conceito de agente avaliador ("LLM as a judge"): usar um
+  segundo agente de IA para checar se a resposta de outro LLM, ou um
+  trecho de código, está correta e segura antes de confiar nela.
+
+TERMOS NOVOS:
+ - Agente de IA = sistema de IA que recebe uma tarefa e decide
+   sozinho os passos para completá-la, sem eu guiar cada ação
+ - Copiloto = IA que sugere dentro do que eu já estou fazendo (ex:
+   dentro de um documento ou de um código), diferente do chatbot, que
+   só responde a uma pergunta solta
+ - LLM as a judge (agente avaliador) = usar um segundo agente de IA
+   para avaliar a qualidade ou a segurança da resposta de outro LLM
+
+TESTE QUE FIZ (se aplicavel):
+ - Ataque tentado: Não se aplica (prática de produtividade com
+   agente, não de segurança ofensiva)
+ - Resultado (passou/falhou): Não se aplica
+ - Como corrigi: Não se aplica
+
+ONDE ISSO APARECE NOS MEUS PROJETOS:
+- Usei o Google Antigravity (agente de IA gratuito) para transformar
+  meu cronograma de estudos em arquivos reais no repositório
+  portfolio-seguranca: README.md, cronograma.md, recursos.md e a
+  pasta anotacoes/.
+- O conceito de agente se conecta diretamente com o GuardAI (projeto
+  final do bootcamp), que é um agente de IA aplicado à análise de
+  vulnerabilidades — o mesmo princípio que pratiquei hoje, aplicado à
+  segurança.
+- O conceito de agente avaliador se conecta com o ShopAI: testar se a
+  resposta de um LLM (o chatbot da loja) é segura é, na prática, usar
+  um agente para avaliar outro agente.
+
+DUVIDAS:
+- Como usar um agente para ler e extrair conteúdo diretamente de uma
+  página da web (vi o professor fazer isso na aula; ainda não
+  encontrei essa função no meu Antigravity).
